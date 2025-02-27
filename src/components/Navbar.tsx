@@ -1,8 +1,10 @@
 const Navbar = () => {
   return (
-    <div className="fixed right-0 top-0 h-screen w-16 bg-white text-black flex flex-col items-center py-4 shadow-lg">
-      <div className="flex flex-col gap-6">
-        <div className="border border-gray-300 py-3 flex flex-col gap-1 shadow-xl rounded-md">
+    <div className="fixed right-0 top-0  w-16 bg-white text-black flex flex-col items-center py-4 ">
+      <div className="flex flex-col gap-6 h-[100vh]">
+        <div className=" py-3 flex flex-col gap-1 rounded-md justify-center h-[100vh]">
+          
+          
           <div className="group relative px-4 cursor-pointer ">
             <div className="flex h-10 w-10 items-center justify-center rounded-full hover:text-blue-500">
               <svg
@@ -22,6 +24,8 @@ const Navbar = () => {
               Home
             </span>
           </div>
+          
+          
           <div className="group relative px-4 cursor-pointer">
             <div className="flex h-10 w-10 items-center justify-center rounded-full hover:text-blue-500">
               <svg
@@ -44,6 +48,8 @@ const Navbar = () => {
               Messages
             </span>
           </div>
+         
+         
           <div className="group relative px-4 cursor-pointer">
             <div className="flex h-10 w-10 items-center justify-center rounded-full hover:text-blue-500">
               <svg
@@ -66,6 +72,8 @@ const Navbar = () => {
               User
             </span>
           </div>
+          
+          
           <div className="group relative px-4 cursor-pointer">
             <div className="flex h-10 w-10 items-center justify-center rounded-full hover:text-blue-500">
               <svg
@@ -102,6 +110,7 @@ const Navbar = () => {
               Settings
             </span>
           </div>
+       
         </div>
       </div>
     </div>
