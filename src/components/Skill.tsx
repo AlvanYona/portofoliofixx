@@ -3,7 +3,7 @@ import { FC } from "react";
 
 const Skill = () => {
   return (
-    <section className="flex flex-col items-center justify-center m-10 p-6 gap-10">
+    <section id="Skill" className="flex flex-col items-center justify-center m-10 p-6 gap-10">
       <div>
         <div className="flex justify-center items-center my-10">
           <h1 className="text-4xl font-[500]">Skill</h1>
@@ -16,7 +16,7 @@ const Skill = () => {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-20">
+      <div className="flex flex-col gap-7 md:grid grid-cols-3 gap-20">
         <div>
           <Card1
             title="CSS"
@@ -75,7 +75,7 @@ interface CardProps {
 export const Card1: FC<CardProps> = ({ title, description, image }) => {
   return (
     <div>
-      <div className="bg-[#FFB400]  group relative w-80 h-72 bg-white flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden shadow-[0_20px_30px_rgba(0,0,0,0.9)]">
+      <div className="bg-[#FFB400] border border-[#ffbf28] border-8 group relative w-72 h-72 bg-white flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden shadow-[0_20px_30px_rgba(0,0,0,0.9)]">
         <Image
           src={image}
           alt="icon1"

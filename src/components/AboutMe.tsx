@@ -3,41 +3,33 @@ import { FC } from "react";
 
 const AboutMe = () => {
   return (
-    <section className="flex flex-col items-center justify-center m-10 p-6 gap-10">
-      <div>
-        <div className="flex justify-center items-center my-10">
-          <h1 className="text-4xl font-[500]">About Me</h1>
-        </div>
-        <div className="text-center">
-          <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. <br />
-            Velit officia consequat duis enim velit mollit. lorem ipsum
-          </p>
-        </div>
+    <section id="AboutMe" className="flex flex-col items-center justify-center px-5 py-10 md:py-20 w-full">
+      {/* Judul */}
+      <div className="text-center">
+        <h1 className="text-3xl md:text-4xl font-semibold">About Me</h1>
+        <p className="mt-4 max-w-lg text-gray-700">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br />
+          Velit officia consequat duis enim velit mollit. lorem ipsum
+        </p>
       </div>
-      <div className="grid grid-cols-3 gap-20">
-        <div>
-          <Card1
-            title="Back-End"
-            description="Back-End adalah bagian dari aplikasi yang mengelola logika bisnis, database, dan server, memastikan data diproses dan dikirim ke Front-End menggunakan bahasa seperti Node.js, Python, atau PHP."
-            image="/image.png"
-          />
-        </div>
-        <div>
-          <Card1
-            title="Front-End"
-            description="Front-End adalah bagian dari aplikasi yang berinteraksi langsung dengan pengguna, mencakup desain, antarmuka, dan pengalaman pengguna menggunakan teknologi seperti HTML, CSS, dan JavaScript."
-            image="/front.png"
-          />
-        </div>
-        <div>
-          <Card1
-            title="Key Value"
-            description="Back-End adalah bagian dari aplikasi yang mengelola logika bisnis, database, dan server, memastikan data diproses dan dikirim ke Front-End menggunakan bahasa seperti Node.js, Python, atau PHP."
-            image="/keyValue.png"
-          />
-        </div>
+
+      {/* Grid Card */}
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-10 w-full max-w-5xl">
+        <Card1
+          title="Back-End"
+          description="Back-End adalah bagian dari aplikasi yang mengelola logika bisnis, database, dan server, memastikan data diproses dan dikirim ke Front-End menggunakan bahasa seperti Node.js, Python, atau PHP."
+          image="/image.png"
+        />
+        <Card1
+          title="Front-End"
+          description="Front-End adalah bagian dari aplikasi yang berinteraksi langsung dengan pengguna, mencakup desain, antarmuka, dan pengalaman pengguna menggunakan teknologi seperti HTML, CSS, dan JavaScript."
+          image="/front.png"
+        />
+        <Card1
+          title="Key Value"
+          description="Key Value adalah konsep penyimpanan data berbasis pasangan kunci-nilai yang banyak digunakan dalam database NoSQL untuk akses cepat dan efisien."
+          image="/keyValue.png"
+        />
       </div>
     </section>
   );
@@ -53,28 +45,16 @@ interface CardProps {
 
 export const Card1: FC<CardProps> = ({ title, description, image }) => {
   return (
-    <div>
-      <div className="shadow-[0_20px_30px_rgba(0,0,0,0.9)]">
-        <article className="flex w-[350px] flex-col items-start justify-between border-0 bg-gradient-to-b from-white via-gray-100 to-gray-200 p-6  transition-transform duration-500 ease-in-out transform hover:scale-105 hover:bg-gradient-to-b hover:from-gray-200 hover:to-white  duration-500 ease-in-out ">
-          <Image src={image} alt="icon1" width={68} height={68} />
-          <div className="group relative">
-            <h3 className="group-hover:text-red-500 mt-3 text-2xl font-black uppercase leading-6 text-black transition-all duration-500 ease-in-out transform hover:scale-105 hover:text-blue-800">
-              <a href="#">
-                <span className="absolute inset-0 max-w-xs"></span>
-                {title}
-              </a>
-            </h3>
-            <p className="text-md mt-5 border-l-4 border-red-500 pl-4 leading-6 text-gray-800 transition-all duration-500 ease-in-out transform hover:border-blue-500 hover:text-gray-600">
-              {description}
-            </p>
-          </div>
-          <div className="relative mt-8 flex items-center gap-x-2">
-            <div className="text-sm leading-6">
-              
-            </div>
-          </div>
-        </article>
-      </div>
+    <div className="p-4 shadow-lg rounded-lg bg-white transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+      <article className="flex flex-col items-start justify-between">
+        <Image src={image} alt={title} width={68} height={68} className="object-contain" />
+        <h3 className="mt-3 text-xl font-bold uppercase leading-6 text-gray-900 transition-colors duration-300 hover:text-blue-600">
+          {title}
+        </h3>
+        <p className="text-sm mt-4 border-l-4 border-yellow-500 pl-3 text-gray-700 transition-all duration-300 hover:border-blue-500 hover:text-gray-600">
+          {description}
+        </p>
+      </article>
     </div>
   );
 };
