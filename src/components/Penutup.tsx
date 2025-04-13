@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Penutup = () => {
   return (
     <section className="p-5 mb-20 bg-[#ffbf28] flex flex-col md:flex-row justify-between items-center mt-5 w-full gap-5 rounded-md border-2 border-black shadow-[4px_4px_0_0_black]">
@@ -28,6 +30,7 @@ const Penutup = () => {
 
       <div>
         <div className="flex items-center gap-4">
+        <a href="https://www.instagram.com/alvan.yf">
           <div className="social-button">
             <button className="relative w-12 h-12 rounded-full group">
               <div className="floater w-full h-full absolute top-0 left-0 bg-violet-400 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
@@ -51,9 +54,12 @@ const Penutup = () => {
               </div>
             </button>
           </div>
+          </a>
 
           {/* <p>Follow my social media</p> */}
+          <a href="https://www.instagram.com/alvan.yf">
           <div className="social-button">
+          
             <button className="relative w-12 h-12 rounded-full group">
               <div className="floater w-full h-full absolute top-0 left-0 bg-black rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
               <div className="icon relative z-10 w-full h-full flex items-center justify-center border-2 border-black rounded-full">
@@ -72,6 +78,8 @@ const Penutup = () => {
               </div>
             </button>
           </div>
+          </a>
+
           <div className="social-button">
             <button className="relative w-12 h-12 rounded-full group">
               <div className="floater w-full h-full absolute top-0 left-0 bg-blue-500 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>

@@ -5,7 +5,7 @@ const Profil = () => {
   return (
     <div className="hidden lg:fixed lg:left-0 lg:top-0  lg:w-[15%] lg:bg-white lg:text-[#FFB400] lg:flex lg:flex-col lg:items-center lg:py-4  ">
       <div className="flex flex-col gap-6 h-[100vh]">
-        <div className=" py-3 flex flex-col gap-1 rounded-md justify-center gap-10 h-[100vh]">
+        <div className=" py-3 flex flex-col rounded-md justify-center gap-10 h-[100vh]">
           <div className=" w-[100%] h-[80%] text-black p-4 flex flex-col items-start justify-center gap-3  ">
             <div className="w-full flex justify-center">
               <div className="relative h-[20vh] w-[20vh] rounded-full overflow-hidden border-4 border-white shadow-lg">
@@ -86,7 +86,7 @@ export const Progress: FC<ProgressProps> = ({ title, percen, description }) => {
     <div className="px-5 pb-5">
       <p className="mb-2 text-sm text-zinc-600 dark:text-zinc-400">{title}</p>
       <div className="w-full bg-zinc-200 dark:bg-zinc-700 rounded-full h-2.5">
-        <div className={`bg-[#ffb400] h-2.5 w-[${percen}] rounded-full`}></div>
+        <div className={`bg-[#ffb400] h-2.5 rounded-full`} style={{width: percen}}></div>
       </div>
       <div className="flex justify-between  items-center mt-3">
         <span className="text-sm text-zinc-600 dark:text-zinc-400">
