@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
       {/* Sidebar untuk Desktop */}
       <div className="hidden md:flex fixed right-0 top-0 h-screen w-16 bg-white text-[#FFB400] flex-col items-center py-4 shadow-lg">
-        <div className="flex flex-col gap-6 h-full">
+        <div className="flex flex-col gap-6 h-full justify-center">
           {navLinks.map((link, index) => (
             <a key={index} href={link.href} className="group relative px-4 cursor-pointer">
               <div className="flex h-10 w-10 items-center justify-center rounded-full hover:text-blue-500">
