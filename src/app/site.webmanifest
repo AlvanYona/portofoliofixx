@@ -1,0 +1,21 @@
+{
+  "name": "Alvan Yona",
+  "short_name": "Alvan",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#df9494",
+  "background_color": "#d85959",
+  "display": "standalone"
+}

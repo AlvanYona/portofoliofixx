@@ -48,7 +48,6 @@ const navLinks = [
   { href: "#Skill", icon: "/skill.svg", label: "Skill" },
   { href: "#Portofolio", icon: "/porto.png", label: "Portofolio" },
   { href: "#Experience", icon: "/egg.svg", label: "Experience" },
-  { href: "#Review", icon: "/review.png", label: "Review" },
 ];
 
 export default Navbar;

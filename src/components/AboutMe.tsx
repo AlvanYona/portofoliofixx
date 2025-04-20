@@ -8,8 +8,7 @@ const AboutMe = () => {
       <div className="text-center">
         <h1 className="text-3xl md:text-4xl font-semibold">About Me</h1>
         <p className="mt-4 max-w-lg text-gray-700">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br />
-          Velit officia consequat duis enim velit mollit. lorem ipsum
+        I am a creative Front-end developer who loves new things and is ready to learn the needs for the future.
         </p>
       </div>
 
@@ -17,17 +16,17 @@ const AboutMe = () => {
       <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-10 w-full max-w-5xl">
         <Card1
           title="Back-End"
-          description="Back-End adalah bagian dari aplikasi yang mengelola logika bisnis, database, dan server, memastikan data diproses dan dikirim ke Front-End menggunakan bahasa seperti Node.js, Python, atau PHP."
+          description="Back-End is the part of the application that manages business logic, databases, and servers, ensuring data is processed and sent to the Front-End using languages ​​such as Node.js, Python, or PHP."
           image="/image.png"
         />
         <Card1
           title="Front-End"
-          description="Front-End adalah bagian dari aplikasi yang berinteraksi langsung dengan pengguna, mencakup desain, antarmuka, dan pengalaman pengguna menggunakan teknologi seperti HTML, CSS, dan JavaScript."
+          description="Front-End is the part of an application that interacts directly with the user, including design, interface, and user experience using technologies such as HTML, CSS, and JavaScript."
           image="/front.png"
         />
         <Card1
           title="Key Value"
-          description="Key Value adalah konsep penyimpanan data berbasis pasangan kunci-nilai yang banyak digunakan dalam database NoSQL untuk akses cepat dan efisien."
+          description="Key Value is a key-value pair based data storage concept widely used in NoSQL databases for fast and efficient access."
           image="/keyValue.png"
         />
       </div>

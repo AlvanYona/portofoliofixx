@@ -23,7 +23,7 @@ export default function Home() {
         <Skill />
         <Portofolio />
         <Experience />
-        <Reviews />
+        {/* <Reviews /> */}
         <Penutup />
       </div>
 

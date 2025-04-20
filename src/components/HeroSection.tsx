@@ -19,8 +19,8 @@ const HeroSection = () => {
           </p>
 
           <p className="text-gray-600 text-sm md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
+            Iam a junior front-end developer with a passion for creating
+            visually stunning and user-friendly websites. I ready for join Fulltime job as junior front-end or intership.
           </p>
 
           <a href="https://wa.me/6281225226871">

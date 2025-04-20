@@ -10,7 +10,7 @@ const Experience = () => {
           title: "Marketing",
           description:
             "Dedicated to ensuring a positive experience in delivering solutions and building lasting customer relationships with efficient and get deal with customers",
-        }, 
+        },
       ],
     },
     {
@@ -18,16 +18,21 @@ const Experience = () => {
       dates: "April 2021 - September 2023",
       roles: [
         {
-          title: "Team Leader",
-          description:
-            "Oversee the operational of refund team to ensure the fulfillment of targets from client",
-        },
-        {
           title: "Quality Analyst",
           description:
             "Conducting performance analyses of debitur quality loan",
         },
-        
+      ],
+    },
+    {
+      title: "Purwadhika Digital Technology school",
+      dates: "Januari 2025 - sekarang",
+      roles: [
+        {
+          title: "Learning fullstack web developer",
+          description:
+            "Belajar fullstack web developer di Purwadhika Digital Technology school",
+        },
       ],
     },
   ];
@@ -36,8 +41,8 @@ const Experience = () => {
     <section id="Experience" className="py-16 px-5 md:px-24 bg-gray-50">
       {/* Judul */}
       <div className="text-center mb-10">
-        <p className="text-lg text-gray-700">Experience</p>
-        <h1 className="text-3xl font-semibold">Professional Work History</h1>
+        <h2 className="text-lg text-gray-700">Experience</h2>
+        {/* <h1 className="text-3xl font-semibold">Professional Work History</h1> */}
       </div>
 
       {/* Kontainer Utama */}

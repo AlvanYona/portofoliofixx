@@ -10,9 +10,7 @@ const Skill = () => {
         </div>
         <div className="text-center">
           <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. <br />
-            Velit officia consequat duis enim velit mollit. lorem ipsum
+          I have skills in CSS, Java Script, HTML, React, NextJs, NodeJs<br /> and still continue to try develop them further and learn new things.
           </p>
         </div>
       </div>

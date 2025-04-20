@@ -20,76 +20,28 @@ const Portofolio = () => {
         </div>
       </div>
       <div className="flex flex-col gap-7 md:grid grid-cols-3 gap-20">
+        <a href="https://blogs-dun-pi.vercel.app/">
+          <div>
+            <Card1
+              description="Blog diatas saya buat saat saya untuk memenuhi tugas dari purwadhika untuk membuat
+            blog yang meliputi coding front-end dan fetch API menggunakan backendless"
+              image="/blogs.png"
+            />
+          </div>
+        </a>
+        <a href="https://company-profile-beige.vercel.app/">
+          <div>
+            <Card1
+              description="Company profile diatas saya buat saat saya untuk memenuhi tugas dari purwadhika untuk membuat
+            company profile yang meliputi coding front-end dan fetch API menggunakan backendless"
+              image="/company.png"
+            />
+          </div>
+        </a>
         <div>
           <Card1
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget massa
-    interdum, rhoncus ex dignissim, ultricies tellus. Proin convallis mauris ut
-    est pulvinar aliquet. Nulla facilisi."
-            image="/porto1.svg"
-          />
-        </div>
-        <div>
-          <Card1
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget massa
-    interdum, rhoncus ex dignissim, ultricies tellus. Proin convallis mauris ut
-    est pulvinar aliquet. Nulla facilisi."
-            image="/porto2.svg"
-          />
-        </div>
-        <div>
-          <Card1
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget massa
-    interdum, rhoncus ex dignissim, ultricies tellus. Proin convallis mauris ut
-    est pulvinar aliquet. Nulla facilisi."
-            image="/porto3.svg"
-          />
-        </div>
-        <div>
-          <Card1
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget massa
-    interdum, rhoncus ex dignissim, ultricies tellus. Proin convallis mauris ut
-    est pulvinar aliquet. Nulla facilisi."
-            image="/porto4.svg"
-          />
-        </div>
-        <div>
-          <Card1
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget massa
-    interdum, rhoncus ex dignissim, ultricies tellus. Proin convallis mauris ut
-    est pulvinar aliquet. Nulla facilisi."
-            image="/porto5.svg"
-          />
-        </div>
-        <div>
-          <Card1
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget massa
-    interdum, rhoncus ex dignissim, ultricies tellus. Proin convallis mauris ut
-    est pulvinar aliquet. Nulla facilisi."
-            image="/porto6.svg"
-          />
-        </div>
-        <div>
-          <Card1
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget massa
-    interdum, rhoncus ex dignissim, ultricies tellus. Proin convallis mauris ut
-    est pulvinar aliquet. Nulla facilisi."
-            image="/porto7.svg"
-          />
-        </div>
-        <div>
-          <Card1
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget massa
-    interdum, rhoncus ex dignissim, ultricies tellus. Proin convallis mauris ut
-    est pulvinar aliquet. Nulla facilisi."
-            image="/porto8.svg"
-          />
-        </div>
-        <div>
-          <Card1
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget massa
-    interdum, rhoncus ex dignissim, ultricies tellus. Proin convallis mauris ut
-    est pulvinar aliquet. Nulla facilisi."
-            image="/porto8.svg"
+            description="Saat ini saya sedang mengembangkan website Event Orginizer dengan format team yang terdiri dari 2 orang dengan masing-masing tugas dan belum selesai, saat selesai akan saya tampilkan di sini"
+            image="/wip.jpg"
           />
         </div>
       </div>

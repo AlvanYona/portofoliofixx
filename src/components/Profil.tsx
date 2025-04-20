@@ -27,14 +27,14 @@ const Profil = () => {
                 <p className="bg-[#ffb400]">Age: </p> <p>25</p>
               </div>
               <div className="flex justify-between">
-                <p className="bg-[#ffb400]">Residen: </p> <p>25</p>
-              </div>
-              <div className="flex justify-between">
-                <p className="bg-[#ffb400]">Freelance: </p>{" "}
-                <p className="text-green-500">Aviable</p>
-              </div>
-              <div className="flex justify-between">
                 <p className="bg-[#ffb400]">Adress: </p> <p>Semarang</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="bg-[#ffb400]">Open to work</p>{" "}
+                {/* <p className="text-green-500">Aviable</p> */}
+              </div>
+              <div className="flex justify-between">
+                <p className="bg-[#ffb400]">Fulltime or Intership </p> 
               </div>
             </div>
             <div className="w-full px-0">
