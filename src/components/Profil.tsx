@@ -20,7 +20,7 @@ const Profil = () => {
 
             <div className=" border-b border-gray-300">
               <p className="font-extrabold text-black">Alvan Yona</p>
-              <p className="text-black">FRONT-END Depelover</p>
+              <p className="text-black">Web Depelover</p>
             </div>
             <div className="flex flex-col gap-1 w-full border-b border-gray-300   ">
               <div className="flex justify-between ">
