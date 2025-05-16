@@ -13,9 +13,8 @@ const Portofolio = () => {
         </div>
         <div className="text-center">
           <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. <br />
-            Velit officia consequat duis enim velit mollit. lorem ipsum
+            This is my another project using frontend dan backend. <br />
+            please klik the website below
           </p>
         </div>
       </div>

@@ -47,22 +47,22 @@ const Profil = () => {
               <div>
                 <Progress
                   title="Front-End"
+                  percen="95%"
+                  description="95% Complete"
+                />
+              </div>
+              <div>
+                <Progress
+                  title="Back-End"
                   percen="90%"
                   description="90% Complete"
                 />
               </div>
               <div>
                 <Progress
-                  title="Back-End"
-                  percen="40%"
-                  description="40% Complete"
-                />
-              </div>
-              <div>
-                <Progress
                   title="Full Stack"
-                  percen="30%"
-                  description="30% Complete"
+                  percen="85%"
+                  description="85% Complete"
                 />
               </div>
             </div>
