@@ -19,7 +19,11 @@ const Portofolio = () => {
         </div>
       </div>
       <div className="flex flex-col gap-7 md:grid grid-cols-3 gap-20">
-        <a href="https://blogs-dun-pi.vercel.app/">
+        <a
+          href="https://blogs-dun-pi.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div>
             <Card1
               description="Blog diatas saya buat saat saya untuk memenuhi tugas dari purwadhika untuk membuat
@@ -28,7 +32,11 @@ const Portofolio = () => {
             />
           </div>
         </a>
-        <a href="https://company-profile-beige.vercel.app/">
+        <a
+          href="https://company-profile-beige.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div>
             <Card1
               description="Company profile diatas saya buat saat saya untuk memenuhi tugas dari purwadhika untuk membuat
@@ -37,12 +45,18 @@ const Portofolio = () => {
             />
           </div>
         </a>
-        <div>
-          <Card1
-            description="Saat ini saya sedang mengembangkan website Event Orginizer dengan format team yang terdiri dari 2 orang dengan masing-masing tugas dan belum selesai, saat selesai akan saya tampilkan di sini"
-            image="/wip.jpg"
-          />
-        </div>
+        <a
+          href="https://minpro-jcwd-0610-fe.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div>
+            <Card1
+              description="web event organizer ini saya buat dalam format tim yang terdiri 2 orang. website ini memiliki fitur untuk membeli tiket serta membuat event untuk organizer. ada 3 tipe user, organizer, dan admin"
+              image="/webevent1.png"
+            />
+          </div>
+        </a>
       </div>
     </section>
   );
