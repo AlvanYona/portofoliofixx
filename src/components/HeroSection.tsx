@@ -13,14 +13,16 @@ const HeroSection = () => {
         {/* Kolom 1 - Teks */}
         <div className="space-y-5 flex flex-col items-center md:items-start text-center md:text-left p-5 md:p-[50px]">
           <p className="text-2xl font-semibold md:text-5xl leading-tight">
-            I'm <span className="text-[#FFB400]">Alvan Yona</span>
-            <br />
-            <span className="text-[#FFB400]">Front-end</span> Developer
+            <span className="text-[#FFB400]">Alvan Yona Faza</span>
           </p>
 
           <p className="text-gray-600 text-sm md:text-base">
-            I am a junior web developer with a passion for creating
-            visually stunning and user-friendly websites. I have a bachelor's degree in Information & Technology. I ready for join Fulltime job as web developer or intership.
+            Saya adalah lulusan S1 Teknik Informatika dari Universitas STEKOM (2023) dengan IPK 3,22, dan telah menyelesaikan program pelatihan intensif di Purwadhika Digital Technology School.
+
+Saya memiliki ketertarikan pada dunia kerja yang menuntut ketelitian, komunikasi yang efektif, dan pemecahan masalah — baik di bidang teknologi maupun operasional. Terbiasa bekerja secara individu maupun dalam tim, dan mampu beradaptasi dengan cepat di lingkungan kerja baru.
+
+Saya juga memiliki pengalaman di lapangan sebagai surveyor dan di bidang sales, sehingga terbiasa dengan target, tekanan, dan interaksi dengan berbagai kalangan. Saya siap untuk berkontribusi di posisi kantor (back office maupun front office), dengan semangat belajar dan sikap profesional.
+
           </p>
 
           <a href="https://wa.me/6281225226871">
